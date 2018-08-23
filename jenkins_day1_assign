@@ -22,7 +22,7 @@
 |   |    |
 |   | ------ Finally, we&#39;ll install Jenkins and its dependencies, including Java: |
 |   |    |
-|   | sudo apt-get install jenkins 
+|   | sudo apt-get install jenkins |
 
 
 
