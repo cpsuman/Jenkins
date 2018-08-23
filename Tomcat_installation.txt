@@ -1,0 +1,15 @@
+Installation of Tomcat on RHEL:
+•	Download Tomcat from official website: https://tomcat.apache.org/download-80.cgi  (tar.gz pgp, sha512)
+
+o	sudo tar -xvf apache-tomcat-8.5.33
+o	move the extracted file to /opt/
+o	assign the current user to the tomcat directory from the root or can create    a new user and group in the name of tomcat  
+o	after assigning the user to the tomcat server go to the bin folder and start the tomcat using ./startu.sh command.
+o	Before accessing the tomcat url we need to goto the /conf folder i.e. tomcat user.xml and assign the role and the username for administration. 
+o	After configuration we can access the url by using ip_address:8080/ , after hiting the url its prompt for the username and password. So, we have to give the same username and password, which we have defined in the conf file.       
+
+
+Deploy Jenkins over Tomcat sever
+Download Jenkins.war from the official website i.e. https://jenkins.io/download/ 
+Move the downloaded .war file to the /opt/tomcat8/webapps/ folder, which will automatically deployed over the tomcat and one Jenkins directory will be created.
+You can test the deployment via accessing the url  i.e. ip_address:8080/Jenkins     
