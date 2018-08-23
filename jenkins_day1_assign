@@ -22,10 +22,10 @@
 |   |    |
 |   | ------ Finally, we&#39;ll install Jenkins and its dependencies, including Java: |
 |   |    |
-|   | sudo apt-get install jenkins 
+|   | sudo apt-get install jenkins |
 
 
 
 
 
-![jenkins](https://github.com/cpsuman/Jenkins/blob/master/jenkins\_status%20.PNG)
+![jenkins](https://github.com/cpsuman/Jenkins/blob/master/jenkins\_status%20.png)
